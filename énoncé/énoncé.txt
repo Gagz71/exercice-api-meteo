@@ -65,3 +65,12 @@ en fait le navigateur me demande si je veux bien autoriser la localisation, et p
 dans la requete on pourra pas utiliser (this), il faudra a chaque fois écrire l'url à la main en concaténant des variables à la fin de l'url 
 
 versionner GIT 
+
+Lien pour récupérer les données météo d'une position via coordonnées GPS (longitude et lattitude):
+https://www.prevision-meteo.ch/services/json/lat=XXXlng=YYY
+(remplacer XXX par la latitude et YYY par la longitude)
+
+pdf explicatif de l'api: 
+https://prevision-meteo.ch/uploads/pdf/recuperation-donnees-meteo.fr
+
+Météo actuelle sur votre postion 
