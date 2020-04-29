@@ -127,6 +127,7 @@ $('button').click(function(){
 
             }, error: function(){
                 displayErrorMessage('Problème lors de la récupération des données météo');
+                removeOverlay();
             },
             //Avant la requête AJAX
             beforeSend: function(){
