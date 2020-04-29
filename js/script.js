@@ -94,33 +94,33 @@ $('button').click(function(){
                 $('.jeudi').html('');
 
                 $('.jeudi').append(`
-                <h3>Jeudi (30.04.2020)</h3>
-                <p>` + data.fcst_day_0.condition + ` <img src="` + escapeHtml(data.fcst_day_0.icon) + ` "  > </p>
-                <p>Température : de ` + data.fcst_day_0.tmin + ` degrés à ` + data.fcst_day_0.tmax + ` degrés</p>
+                <h3>` + escapeHtml(data.fcst_day_1.day_long) +` ( ` + escapeHtml(data.fcst_day_1.date) + `)</h3>
+                <p>` + escapeHtml(data.fcst_day_1.condition) + ` <img src="` + escapeHtml(data.fcst_day_1.icon) + ` "  > </p>
+                <p>Température : de ` + escapeHtml(data.fcst_day_1.tmin) + ` degrés à ` + escapeHtml(data.fcst_day_1.tmax) + ` degrés</p>
                 `);
                 
                 $('.vendredi').html('');
 
                 $('.vendredi').append(`
-                <h3>Vendredi (01.05.2020)</h3>
-                <p>` + data.fcst_day_1.condition + ` <img src="` + escapeHtml(data.fcst_day_1.icon) + ` "  > </p>
-                <p>Température : de ` + data.fcst_day_1.tmin + ` degrés à ` + data.fcst_day_1.tmax + ` degrés</p>
+                <h3>` + escapeHtml(data.fcst_day_2.day_long) +` ( ` + escapeHtml(data.fcst_day_2.date) + `)</h3>
+                <p>` + escapeHtml(data.fcst_day_2.condition) + ` <img src="` + escapeHtml(data.fcst_day_2.icon) + ` "  > </p>
+                <p>Température : de ` + escapeHtml(data.fcst_day_2.tmin) + ` degrés à ` + escapeHtml(data.fcst_day_2.tmax) + ` degrés</p>
                 `);
 
                 $('.samedi').html('');
 
                 $('.samedi').append(`
-                <h3>Samedi (02.05.2020)</h3>
-                <p>` + data.fcst_day_2.condition + ` <img src="` + escapeHtml(data.fcst_day_2.icon) + ` " ></p>
-                <p>Température : de ` + data.fcst_day_2.tmin + ` degrés à ` + data.fcst_day_2.tmax + ` degrés</p>
+                <h3>` + escapeHtml(data.fcst_day_3.day_long) +` ( ` + escapeHtml(data.fcst_day_3.date) + `)</h3>
+                <p>` + escapeHtml(data.fcst_day_3.condition) + ` <img src="` + escapeHtml(data.fcst_day_3.icon) + ` " ></p>
+                <p>Température : de ` + escapeHtml(data.fcst_day_3.tmin) + ` degrés à ` + escapeHtml(data.fcst_day_3.tmax) + ` degrés</p>
                 `);
 
                 $('.dimanche').html('');
 
                 $('.dimanche').append(`
-                <h3>Dimanche (03.05.2020)</h3>
-                <p>` + data.fcst_day_3.condition + ` <img src="` + escapeHtml(data.fcst_day_3.icon) + ` "  > </p>
-                <p>Température : de ` + data.fcst_day_3.tmin + ` degrés à ` + data.fcst_day_3.tmax + ` degrés</p>
+                <h3>` + escapeHtml(data.fcst_day_4.day_long) +` ( ` + escapeHtml(data.fcst_day_4.date) + `)</h3>
+                <p>` + escapeHtml(data.fcst_day_4.condition) + ` <img src="` + escapeHtml(data.fcst_day_4.icon) + ` "  > </p>
+                <p>Température : de ` + escapeHtml(data.fcst_day_4.tmin) + ` degrés à ` + escapeHtml(data.fcst_day_4.tmax) + ` degrés</p>
                 `);
 
 
